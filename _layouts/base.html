@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    {% include title.html %}    
+    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .brand, #brand {
+        font-size: 20px;
+        margin: 0px;
+        padding 0px;
+        line-height: 20px;
+      }
+      .avatar {
+        border-radius: 30px;
+      }
+      @media (min-width: 1200px) { 
+        .container-fluid {
+          padding:  0px;
+        }
+        .wrapper {
+          width: 80%;
+          margin: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    {% include navbar.html %}
+    <div class="container-fluid wrapper">
+      <div class="row-fluid">
+        <div class="span9">
+          {{ content }}
+          {% include comments.html %}
+        </div>
+        <div class="span3 container-fluid">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>    
+
+    <script src="/assets/jquery-1.9.1.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

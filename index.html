@@ -1,0 +1,15 @@
+---
+layout: base
+---
+<div id="home">
+  <p>
+  	Welcome to my minimal website (yeah, it is minimal because I am lazy :) )<br>
+  	you can find below list of technical posts, slides and announcement for courses by me.
+  </p>
+  <h2>All Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

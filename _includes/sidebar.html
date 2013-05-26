@@ -1,0 +1,22 @@
+
+<div class="row-fluid">
+	<div class="span8">
+		<img src="/assets/avatar.jpg" class="avatar" />
+	</div>
+	<p class="span4">
+		Geek, Lazy Blogger, Developer, Find me in the backend ;) and yes... I am Open Sourcerer.
+	</p>   
+</div>	
+
+<div class="row-fluid">
+	<h2>Contact Me</h2>
+	<ul class="contact">
+	  {% for con in site.contact %} 
+	    <li><a href="{{con[1]}}">{{ con[0] capitalize }}</a></li>
+	  {% endfor %} 
+	</ul>
+</div>
+
+<div class="row-fluid">
+	{% include twitter-widget.html %}
+</div>

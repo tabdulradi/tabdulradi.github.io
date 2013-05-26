@@ -1,0 +1,28 @@
+
+title: Radian's Blog
+description: Few posts from time to time
+
+contact:
+  linkedin: http://www.linkedin.com/profile/view?id=69111606
+  github: https://github.com/tabdulradi
+  twitter: http://twitter.com/tamer_radi
+  flickr: http://www.flickr.com/photos/tamer_radi/
+  skype: skype:tamer_radi?call
+  facebook: https://www.facebook.com/tamer.radi
+  googleplus: http://plus.google.com/111772628801266919557
+  youtube: http://youtube.com/Radianization
+
+conf:
+  disqus: tabdulradi
+
+navbar:
+  links:
+    - 
+      title: Slides
+      url: /slides
+    - 
+      title: Courses
+      url: /courses
+
+pygments: true
+permalink: none
