@@ -32,28 +32,33 @@ prose:
   media: "assets"
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: "untitled"
       - name: "categories"
         field:
           element: "select"
           label: "Category"
           placeholder: "Select a category"
-          value:
+          options:
             - name: "Courses"
               value: "courses"
             - name: "Slides"
               value: "slides"
             - name: "Blog"
               value: "blog"
-          selected: "blog"
+          selected: "blog" 
       - name: "layout"
         field:
           element: "select"
           label: "Layout"
           placeholder: "Select a layout"
-          value: 
+          options:
             - name: "Post"
               value: "post"
             - name: "Slide/Iframe"
               value: "iframe"
-          selected: "post"
-          
+          selected: "post"  
+
