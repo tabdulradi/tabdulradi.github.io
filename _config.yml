@@ -25,3 +25,35 @@ navbar:
 
 pygments: true
 permalink: none
+
+prose:
+  rooturl: "_posts"
+  siteurl: "http://abdulradi.com"
+  media: "assets"
+  metadata:
+    _posts:
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Category"
+          placeholder: "Select a category"
+          value:
+            - name: "Courses"
+              value: "courses"
+            - name: "Slides"
+              value: "slides"
+            - name: "Blog"
+              value: "blog"
+          selected: "blog"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          placeholder: "Select a layout"
+          value: 
+            - name: "Post"
+              value: "post"
+            - name: "Slide/Iframe"
+              value: "iframe"
+          selected: "post"
+          
