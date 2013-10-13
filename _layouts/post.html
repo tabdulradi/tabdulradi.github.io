@@ -1,9 +1,8 @@
 ---
-layout: base
+layout: default
 ---
+<div id="article">
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div id="post">
+<p class="meta">{{ page.date | date_to_string }} <a class="glyphicon glyphicon-fullscreen pull-right" href="{{ post.url }}"></a></p>
 {{ content }}
 </div>

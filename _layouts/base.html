@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    {% include title.html %}    
-    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.png">
     <style>
-      .brand, #brand {
-        font-size: 20px;
-        margin: 0px;
-        padding 0px;
-        line-height: 20px;
-      }
-      .avatar {
-        border-radius: 30px;
-      }
-      @media (min-width: 1200px) { 
-        .container-fluid {
-          padding:  0px;
-        }
-        .wrapper {
-          width: 80%;
-          margin: auto;
-        }
-      }
+    aside {
+      text-align: center;
+    } 
+    img {
+      border: 0 none;
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+    .circle {
+      border-radius: 50%;
+    }
+    article footer {
+      text-align: right;
+    }
+
     </style>
+
+    {% include title.html %}    
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/socialicons/colored.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/assets/js/html5shiv.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
     {% include navbar.html %}
-    <div class="container-fluid wrapper">
-      <div class="row-fluid">
-        <div class="span9">
-          {{ content }}
-          {% include comments.html %}
-        </div>
-        <div class="span3 container-fluid">
-          {% include sidebar.html %}
-        </div>
-      </div>
-    </div>    
+    <div class="container">
+      {{ content }}
+    </div><!-- /.container -->
 
-    <script src="/assets/jquery-1.9.1.min.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script>
+      $("#article .glyphicon-fullscreen").click(function(e){
+        var elem = document.getElementById("article");
+        req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
+        req.call(elem);
+        e.preventDefault();
+      })
+    </script>
   </body>
 </html>

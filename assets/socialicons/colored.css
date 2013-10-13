@@ -1,0 +1,102 @@
+ul.contact {
+  margin: 0px
+}
+.contact a {
+  list-style-type: none;
+  padding:0px; margin:5px;
+}
+.contact as, .socialicon {
+ width:40px; height:40px;
+ display: inline-block
+}
+.contact .socialicon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachement: scroll
+  background-color: black;
+  border-radius: 50%;
+  overflow: hidden;
+  font-color:black
+}
+
+.contact .facebook {
+    background: url("/assets/socialicons/img/facebook.png") no-repeat scroll center center #3B5998;
+    border: 1px solid #3B5998;
+}
+.contact .facebook:hover {
+    border: 1px solid #2D4373;
+}
+.contact .googleplus {
+    background: url("/assets/socialicons/img/googleplus.png") no-repeat scroll center center #C83D20;
+    border: 1px solid #C83D20;
+}
+.contact .googleplus:hover {
+    border: 1px solid #9C3019;
+}
+.contact .twitter {
+    background: url("/assets/socialicons/img/twitter.png") no-repeat scroll center center #55CFF8;
+    border: 1px solid #55CFF8;
+}
+.contact .twitter:hover {
+    border: 1px solid #24C1F6;
+}
+.contact .github {
+    background: url("/assets/socialicons/img/github.png") no-repeat scroll center center #AFB6CA;
+    border: 1px solid #AFB6CA;
+}
+.contact .github:hover {
+    border: 1px solid #909AB6;
+}
+.contact .linkedin {
+    background: url("/assets/socialicons/img/linkedin.png") no-repeat scroll center center #005A87;
+    border: 1px solid #005A87;
+}
+.contact .pinterest {
+    background: url("/assets/socialicons/img/pinterest.png") no-repeat scroll center center #BE4037;
+    border: 1px solid #BE4037;
+}
+.contact .pinterest:hover {
+    border: 1px solid #96332C;
+}
+.contact .delicious {
+    background: url("/assets/socialicons/img/delicious.png") no-repeat scroll center center #3271CB;
+    border: 1px solid #3271CB;
+}
+.contact .delicious:hover {
+    border: 1px solid #285AA2;
+}
+.contact .pinboard {
+    background: url("/assets/socialicons/img/pinboard.png") no-repeat scroll center center #0066C8;
+    border: 1px solid #3A729F;
+}
+.contact .pinboard:hover {
+    border: 1px solid #0052CC;
+}
+.contact .rss {
+    background: url("/assets/socialicons/img/rss.png") no-repeat scroll center center #EF7522;
+    border: 1px solid #EF7522;
+}
+.contact .rss:hover {
+    border: 1px solid #CF5D0F;
+}
+.contact a.flickr {
+    background: url("/assets/socialicons/img/flickr.png") no-repeat scroll center center #EF7522;
+    border: 1px solid #EF7522;
+}
+.contact a.flickr:hover {
+    border: 1px solid #CF5D0F;
+}
+.contact .skype {
+    background: url("/assets/socialicons/img/skype.png") no-repeat scroll center center #EF7522;
+    border: 1px solid #EF7522;
+}
+.contact .skype:hover {
+    border: 1px solid #CF5D0F;
+}
+.contact .youtube {
+    background: url("/assets/socialicons/img/youtube.png") no-repeat scroll center center #EF7522;
+    border: 1px solid #EF7522;
+}
+.contact .youtube:hover {
+    border: 1px solid #CF5D0F;
+}
