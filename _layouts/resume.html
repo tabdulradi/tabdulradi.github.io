@@ -1,0 +1,33 @@
+---
+layout: bootstrap
+---
+<style>
+	article {
+		padding-left: 15px;
+		margin: 0 auto;
+		border-left: 1px solid lightgrey;
+		width: 600px;
+	}
+</style>
+<article>
+	<header>
+		<h1>Tamer Mohammed Abdul-Radi</h1>
+		<ul>
+			<li>Senior Software Engineer</li>
+			<li id="email"><img src="/assets/img/email.png"></li>
+			<li>http://abdulradi.com</li>
+			<li id="phone"><img src="/assets/img/phone.png"></li>
+		<ul>
+	</header>
+	{{ content }}
+</article>
+<script language="JavaScript">
+	var username = "tamer";
+	var hostname = "abdulradi.com";
+	var linktext = username + "@" + hostname ;
+	document.getElementById("email").innerHTML = "<a href='" + "mail" + "to:" + linktext + "'>" + linktext + "</a>";
+	var countryCode = "+20";
+	var providerCode = "100";
+	var number = countryCode + providerCode + "4109857";
+	document.getElementById("phone").innerHTML = number;
+</script>

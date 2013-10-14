@@ -1,8 +1,11 @@
 <title>
-  {{ site.title }} - 
-  {% if page.title %}
-    {{ page.title }}
+  {% if page.fulltitle %}
+  	{{ page.fulltitle }}
   {% else %}
-    {{ site.description }}
+	  {% if page.title %}
+	    {{ page.title }} - {{ site.title }}
+	  {% else %}
+	    {{ site.title }} - {{ site.description }}
+	  {% endif %}
   {% endif %}
 </title>
