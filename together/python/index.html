@@ -46,14 +46,20 @@ eval(Sk.importMainWithBody("<stdin>",false,prog));
 </script>
  
 <form>
-<textarea id="yourcode" cols="40" rows="10">import turtle
+<textarea id="yourcode" cols="40" rows="10">
 print "Hello World"
 </textarea><br />
-<button type="button" onclick="runit()">Run</button>
+<button type="button" onclick="runit(); TogetherJS.send({type: 'run'}); return false;">Run</button>
 </form>
 <pre id="output" ></pre>
 
 <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+<script type="text/javascript">
+TogetherJS.hub.on("run", function (msg) {
+    runit();
+});
+</script>
+
 </body>
  
 </html> 
