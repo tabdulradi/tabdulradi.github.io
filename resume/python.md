@@ -6,11 +6,11 @@ layout: resume
 I am a Geek, completely obsessed with technology. I am a polyglot fullstack software engineer. I speak Scala and Python fluently, hate Ruby but love Rails. Finally, Javascript is my mother tongue.
 
 ##Backend Skills	
- - Scala 2.10.x
- - Play 2.2
+ - Python 2.7
+ - Django
  - Akka 2.2.1
  - MongoDB 
- - Reactive Mongo
+ - MongoEngine
  - Neo4J
  - Elasic Search
 
@@ -27,38 +27,12 @@ I am a Geek, completely obsessed with technology. I am a polyglot fullstack soft
  - Eclipse/Aptana/Rubymine
  - Bash scripting
 
-##Online Courses
- - ###Functional Programming Principles in Scala 
-   - Sep 18th 2012
-   - Instructor: Martin Odersky 
-   - Provider: Coursera.org (École Polytechnique Fédérale de Lausanne)
-   - Grade: 100% with distinction
- - ###Principles of Reactive Programming
-   - Nov 4th 2013
-   - Instructors: Martin Odersky, Erik Meijer and Roland Kuhn
-   - Provider: Coursera.org (École Polytechnique Fédérale de Lausanne)
-   - Grade: 99.5%
-
-##Scala Open Source Projects
-- ###Syncro 
-  - [github.com/tabdulradi/syncro](//github.com/tabdulradi/syncro/commits?author=tabdulradi)
-  - Syncro is real-time data synchronization engine, powered by Mongo and Playframework.
-    I contributed by adding an Actor-based special PubSub, that contains a buffer for old publishes. Also I wrote Json transformers, that validates and extract data based on specified protocol.
-- ###SecureSocial 
-  - [github.com/tabdulradi/securesocial](//github.com/tabdulradi/securesocial/commits?author=tabdulradi)
-  - Some of contributions are made by a trainee. I was only reviewing at first, but later I added more features/fixes myself.
-- ###Scala Wrapper for PlayAuthenticate 
-  - [github.com/tabdulradi/scala-play-authenticate-usage](//github.com/tabdulradi/scala-play-authenticate-usage/commit/2ac00acfc585d27a1d43f1977a4191852104b739) 
-- ###Googe Codejam Solutions 
-  - [github.com/tabdulradi/codejam](//github.com/tabdulradi/codejam)
-  - These are my solutions of some of Google's codejam contest.
-
-##Other Open Source Projects
-- ###Gateone (Python)
+##Python Open Source Projects
+- ###Gateone
   [github.com/liftoff/GateOne](//github.com/liftoff/GateOne/commits?author=tabdulradi)
 
 ##Closed Source Projects
-- ###White-label cloud-based training platform
+- ###Cloud-based training platform
   [Simtry.com](//simtry.com), consist of two parts
   1. Social Learning Platform, stores relations between users, suggests friends, assigns badges and belts based on activity.
   2. SimTry Labs is a way to rent (per-hour) pre-configured cloud based computer labs. Using cheap and very fast <var></var>irtualization technologies. 
