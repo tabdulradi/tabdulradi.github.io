@@ -41,7 +41,7 @@ I am a Geek, completely obsessed with technology. I am a polyglot fullstack soft
 
 ##Scala Open Source Projects
 - ###Syncro 
-  - [github.com/tabdulradi/syncro](//github.com/tabdulradi/syncro/commits?author=tabdulradi)
+  - [github.com/tabdulradi/syncro-0](//github.com/tabdulradi/syncro/commits?author=tabdulradi)
   - Syncro is real-time data synchronization engine, powered by Mongo and Playframework.
     I contributed by adding an Actor-based special PubSub, that contains a buffer for old publishes. Also I wrote Json transformers, that validates and extract data based on specified protocol.
 - ###SecureSocial 
