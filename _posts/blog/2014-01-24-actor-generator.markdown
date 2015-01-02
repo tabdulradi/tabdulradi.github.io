@@ -8,9 +8,9 @@ category: blog
 ```
 class FibonacciGenerator extends Actor {
   import FibonacciGenerator._
- 
+
   def receive = fib()
- 
+
   def fib(a: Long = 0, b: Long = 1): Receive = {
     case Next =>
       val c: Long = a + b
@@ -18,7 +18,7 @@ class FibonacciGenerator extends Actor {
       context.become(fib(b, c))
   }
 }
- 
+
 object FibonacciGenerator {
   case object Next
 }
@@ -26,6 +26,7 @@ object FibonacciGenerator {
 Back in first days using Akka, I didn't notice that you can such lazy recursion using Actors. The previous piece of code let's you generate infinite (until you hit Long.MaxValue) fibbonci numbers.
 
 This code can tested like this:
+
 ```
 object Main extends App {
   import FibonacciGenerator._
@@ -33,11 +34,11 @@ object Main extends App {
 
   implicit val system = ActorSystem("test")
   val fib = system.actorOf(Props[FibonacciGenerator])
-  
+
   actor(new Act {
     whenStarting { fib ! Next }
     become {
-      case x: Long if x < 9999999999L => 
+      case x: Long if x < 9999999999L =>
         println(x)
         fib ! Next
       case x =>
