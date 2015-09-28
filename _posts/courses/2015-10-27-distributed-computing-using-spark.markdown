@@ -11,7 +11,7 @@ This is a FREE course, to teach you how to use Spark to write programs that get'
 You can use Python, Java, or Scala to solve course's exercises!
 
 # About Instructor
-Senior Software Engineer at [Cake solutions](https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/streaming/TwitterPopularTags.scala). Developing reactive, distributed applications and working with large amounts of data and traffic.
+Senior Software Engineer at [Cake solutions](http://cakesolutions.net). Developing reactive, distributed applications and working with large amounts of data and traffic.
 
 - [Linkedin](https://uk.linkedin.com/in/tamerradi)
 - [Github](https://github.com/tabdulradi)
@@ -22,7 +22,8 @@ Students, as well as professionals, who are interested about distributed computi
 Whether you are planning for a kickass graduation project, or looking for a new job. This course can introduce you to the tools you need to write server-side distributed code.
 
 ## Programming languages
-You should ..
+You should be ..  
+
 - Able to write code using Python, Java, or Scala.
 - Willing to learn new programming languages! (mostly Scala, some Python)
 
@@ -40,7 +41,7 @@ The course will be mostly using Scala code snippets
 - Scala in a syringe!
   - Read and write basic Scala programs
   - Understand basic functional programming concepts
-  - Write programs using `map`, and `reduce`.
+  - Write programs using 'map', and 'reduce'.
 - Basic data transformation
 - Loading and Saving data
 - Advanced Spark programming
@@ -65,6 +66,7 @@ Note: Course contents may vary depending on audience and time limits.
 Mansoura, Egypt. (Venue name will be announced later).
 
 # Apply
+
 ## Note
 If you got accepted in [my "Structure & Interpretation of Computer Programs" course](http://abdulradi.com/courses/sicp-using-javascript-for-absolute-beginners.html), but you didn't show up. Please don't apply, you got blacklisted!
 
