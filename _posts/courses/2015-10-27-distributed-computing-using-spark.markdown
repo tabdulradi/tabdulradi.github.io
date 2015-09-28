@@ -61,6 +61,9 @@ Note: Course contents may vary depending on audience and time limits.
 - Wednesday 14 October 2015 from 6pm to 9pm
 - Thursday 15 October 2015 from 6pm to 9pm
 
+## Course Location
+Mansoura, Egypt. (Venue name will be announced later).
+
 # Apply
 ## Note
 If you got accepted in [my "Structure & Interpretation of Computer Programs" course](http://abdulradi.com/courses/sicp-using-javascript-for-absolute-beginners.html), but you didn't show up. Please don't apply, you got blacklisted!
