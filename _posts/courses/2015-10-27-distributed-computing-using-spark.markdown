@@ -66,6 +66,7 @@ Note: Course contents may vary depending on audience and time limits.
 Mansoura, Egypt. (Venue name will be announced later).
 
 # Apply
+[http://goo.gl/forms/hgkvRK3bqI](http://goo.gl/forms/hgkvRK3bqI)
 
 ## Note
 If you got accepted in [my "Structure & Interpretation of Computer Programs" course](http://abdulradi.com/courses/sicp-using-javascript-for-absolute-beginners.html), but you didn't show up. Please don't apply, you got blacklisted!
@@ -74,14 +75,12 @@ If you got accepted in [my "Structure & Interpretation of Computer Programs" cou
 This course is free.
 
 ## Quiz
-Please attempt to solve one of the following quizzes.
+Please attempt to solve one of the following quizzes.  
+
 - [Quiz 1](https://github.com/Kiosk12/spark-training/tree/master/quiz/quiz1)
 - [Quiz 2](https://github.com/Kiosk12/spark-training/tree/master/quiz/quiz2)
 
 Please solve it yourself. You will be asked to write similar code in the class!
-
-## Registration link
-[http://goo.gl/forms/hgkvRK3bqI](http://goo.gl/forms/hgkvRK3bqI)
 
 # FAQ
 1. Q: Who uses Spark?  
