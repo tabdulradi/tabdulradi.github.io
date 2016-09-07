@@ -1,64 +1,64 @@
-title: Radian's Blog
-description: Few posts from time to time
+# Site
+title: Tamer AbdulRadi
+description: Software engineer, writes distributed systems for living.
+logo: custom/avatar.jpg
+locale: en_US
 
-contact:
-  linkedin: http://www.linkedin.com/profile/view?id=69111606
-  github: https://github.com/tabdulradi
-  twitter: http://twitter.com/tabdulradi
-  flickr: http://www.flickr.com/photos/tamer_radi/
-  skype: skype:tamer_radi?call
-  facebook: https://www.facebook.com/tamer.radi
-  googleplus: http://plus.google.com/111772628801266919557
-  youtube: http://youtube.com/Radianization
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
-conf:
-  disqus: tabdulradi
+# Jekyll
+permalink:          /:categories/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
 
-navbar:
-  links:
-    - 
-      title: Slides
-      url: /slides
-    - 
-      title: Courses
-      url: /courses
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
 
-pygments: true
-permalink: none
+# Social Links
+#email:             email
+#google.plus:        username
+twitter:            tabdulradi
+#facebook:           username
+github:             tabdulradi
+stackoverflow:     234998/radian
+linkedin:          tamerradi
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
 
-prose:
-  rooturl: "_posts"
-  siteurl: "http://abdulradi.com"
-  media: "assets"
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: "untitled"
-      - name: "categories"
-        field:
-          element: "select"
-          label: "Category"
-          placeholder: "Select a category"
-          options:
-            - name: "Courses"
-              value: "courses"
-            - name: "Slides"
-              value: "slides"
-            - name: "Blog"
-              value: "blog"
-          selected: "blog" 
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Layout"
-          placeholder: "Select a layout"
-          options:
-            - name: "Post"
-              value: "post"
-            - name: "Slide/Iframe"
-              value: "iframe"
-          selected: "post"  
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
