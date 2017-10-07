@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/tabdulradi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://abdulradi.com
+  * I am tabdulradi (https://keybase.io/tabdulradi) on keybase.
+  * I have a public key ASBkIdYjb4IRe7DXOtrp_1ZSev9WYKBiZ8R-iSWKWa8kAAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206421d6236f82117bb0d73adae9ff56527aff5660a06267c47e89258a59af24000a",
+      "host": "keybase.io",
+      "kid": "01206421d6236f82117bb0d73adae9ff56527aff5660a06267c47e89258a59af24000a",
+      "uid": "f9cb727999c07dc40fd6be0d725fb419",
+      "username": "tabdulradi"
+    },
+    "merkle_root": {
+      "ctime": 1507374520,
+      "hash": "30a14b667df22bae29c4150bcee9cd5e7bff5534ad3a5325ccd65f03c51f4d007768f1079d104d555590ca951ce1a5864d03176127eac273d77771a5e134a0a5",
+      "hash_meta": "923d0db1d0183bfcbb6a1ab60b6dfa50a09dbf966080b92ca482eb59d9d82b4b",
+      "seqno": 1533705
+    },
+    "service": {
+      "hostname": "abdulradi.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507374556,
+  "expire_in": 504576000,
+  "prev": "86178e0ed8f2b34bc59805b2fb3c972e8df865538ca03b1e8d9dc05315ff02e1",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZCHWI2+CEXuw1zra6f9WUnr/VmCgYmfEfoklilmvJAAKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjQyMWQ2MjM2ZjgyMTE3YmIwZDczYWRhZTlmZjU2NTI3YWZmNTY2MGEwNjI2N2M0N2U4OTI1OGE1OWFmMjQwMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjQyMWQ2MjM2ZjgyMTE3YmIwZDczYWRhZTlmZjU2NTI3YWZmNTY2MGEwNjI2N2M0N2U4OTI1OGE1OWFmMjQwMDBhIiwidWlkIjoiZjljYjcyNzk5OWMwN2RjNDBmZDZiZTBkNzI1ZmI0MTkiLCJ1c2VybmFtZSI6InRhYmR1bHJhZGkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDczNzQ1MjAsImhhc2giOiIzMGExNGI2NjdkZjIyYmFlMjljNDE1MGJjZWU5Y2Q1ZTdiZmY1NTM0YWQzYTUzMjVjY2Q2NWYwM2M1MWY0ZDAwNzc2OGYxMDc5ZDEwNGQ1NTU1OTBjYTk1MWNlMWE1ODY0ZDAzMTc2MTI3ZWFjMjczZDc3NzcxYTVlMTM0YTBhNSIsImhhc2hfbWV0YSI6IjkyM2QwZGIxZDAxODNiZmNiYjZhMWFiNjBiNmRmYTUwYTA5ZGJmOTY2MDgwYjkyY2E0ODJlYjU5ZDlkODJiNGIiLCJzZXFubyI6MTUzMzcwNX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhYmR1bHJhZGkuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwNzM3NDU1NiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4NjE3OGUwZWQ4ZjJiMzRiYzU5ODA1YjJmYjNjOTcyZThkZjg2NTUzOGNhMDNiMWU4ZDlkYzA1MzE1ZmYwMmUxIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAHKRj/2qTyHdI9FPi7w7lUyhHPVAxfj6GGXdduW608ngAzICF/qTVhawucNkQ1utLptYb8Y7nqWQdNco12uJoB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPnBJ1PUUR3mbG3l9ouwPjjOTjyPlrBQuTsP03M52cUio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tabdulradi
+
+==================================================================
